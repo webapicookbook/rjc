@@ -3,6 +3,9 @@ RESTful Job Control
 
 _A recipe for supporting general workflow management for independent service interfaces_
 
+**NOTE:** 
+See [RESTful Job Control](https://webapicookbook.github.io/alps-documents/other/jobs/index.html) for details on the design, documentation, and diagram of the RESTful Job Control pattern.
+
 This profile provides a basic set of actions and metadata for orchestrating independent services on the open web.
 
 Each **job** contains one or more **tasks**. The set of tasks in each job MUST be able to run in parallel. Each task SHOULD be repeatable and reversible. Each job SHOULD be restartable and reentrant.
